@@ -1,0 +1,53 @@
+.sweet {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-color: #150F0F;
+  color: #fff;
+}
+
+.flex-sweet {
+  display: flex;
+}
+
+.sweet img {
+  width: 280px;
+  height: 240px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  border-bottom: 10px solid #DABE05;
+  border-right: 10px solid #DABE05;
+  border-radius: 10px;
+}
+
+.sweet h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.sweet p {
+  width: 70%;
+  margin: auto;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.sweet button {
+  background-color: #e62945;
+  border: none;
+  padding: 12px 40px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: .5s all;
+}
+
+.sweet button:hover {
+  background-color: #fc0026;
+  cursor: pointer;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 600;
+}
